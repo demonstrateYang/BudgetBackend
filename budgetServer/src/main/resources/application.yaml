@@ -1,0 +1,13 @@
+server:
+  port: 17600
+
+spring:
+    datasource:
+        url:  "jdbc:postgresql://8.134.49.6:18300/Personal?user=postgres&password=secret"
+
+
+dubbo:
+    application:
+         name: BudgetRPC
+    registry:
+         address: nacos://127.0.0.1:8848
